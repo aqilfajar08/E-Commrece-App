@@ -1,0 +1,44 @@
+name: e_commerce_ui_aplication1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+  google_fonts: ^6.2.1
+
+  # from pub.dev, it's for register your asset in pub dev website:
+
+  # this is for navigation bar in below 
+  curved_navigation_bar: ^1.0.6
+
+  # 
+  clippy_flutter: ^2.0.0-nullsafety.1
+
+  # this is for add rating such as when you use a e-commerce app when after buy the products
+  flutter_rating_bar: ^4.0.1
+
+  # this one for add a badge cart in `homeAppBar` page and alternative to `cartPage`
+  badges: ^3.1.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - asset/img/1.jpg
+    - asset/img/2.jpg
+    - asset/img/3.jpg
+    - asset/img/4.jpg
+    - asset/img/logo/1.png
+    - asset/img/logo/2.png
+    - asset/img/logo/3.png
+    - asset/img/logo/4.png
